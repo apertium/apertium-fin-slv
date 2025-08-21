@@ -1,0 +1,10 @@
+{
+    "fin-slv": {
+        "input": "fin-slv-input.txt",
+        "mode": "fin-slv"
+    },
+    "slv-fin": {
+        "input": "slv-fin-input.txt",
+        "mode": "slv-fin"
+    }
+}
