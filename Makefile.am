@@ -18,17 +18,18 @@ TARGETS_DIR1 =		\
 	$(PREFIX1).rtx.bin
 
 TRIMMED_TARGETS_DIR1 = \
-	$(PREFIX1).automorf.bin
+	$(PREFIX1).automorf.hfst \
+	$(PREFIX1).automorf-trimmed.hfst
 
 UNTRIMMED_TARGETS_DIR1 = \
-	$(PREFIX1).automorf-untrimmed.bin
+	$(PREFIX1).automorf-untrimmed.hfst
 
 TARGETS_DIR2 =		\
 	$(PREFIX2).prob		\
 	$(PREFIX2).rlx.bin	\
 	$(PREFIX2).autobil.bin	\
 	$(PREFIX2).autolex.bin	\
-	$(PREFIX2).autogen.bin	\
+	$(PREFIX2).autogen.hfst	\
 	$(PREFIX2).rtx.bin
 
 TRIMMED_TARGETS_DIR2 = \
@@ -62,18 +63,18 @@ untrimmed: $(TARGETS_DIR1) $(UNTRIMMED_TARGETS_DIR1) $(TARGETS_DIR2) $(UNTRIMMED
 # Finnish analysis:
 # -------------------
 
-.deps/$(LANG1).automorf.hfst: $(AP_SRC1)/$(LANG1).automorf.att.gz .deps/.d
+.deps/$(LANG1).automorf.hfst: $(AP_SRC1)/$(LANG1).automorf.hfst .deps/.d
 	$(ZCAT) $< | hfst-txt2fst > $@
 
-$(PREFIX1).automorf-untrimmed.bin: $(AP_SRC1)/$(LANG1).automorf.att.gz
-	@$(ZCAT) $< > $@.att
-	lt-comp lr $@.att $@
-	@rm $@.att
+$(PREFIX1).automorf-untrimmed.hfst: $(AP_SRC1)/$(LANG1).automorf.hfst
+	cp -v $< $@
 
-$(PREFIX1).automorf.bin: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.prefixes
-	hfst-compose-intersect -1 .deps/$(LANG1).automorf.hfst -2 .deps/$(PREFIX1).autobil.prefixes -o .deps/$(PREFIX1).automorf.trimmed
-	hfst-fst2txt -i .deps/$(PREFIX1).automorf.trimmed -o .deps/$(PREFIX1).automorf.trimmed.att
-	lt-comp lr .deps/$(PREFIX1).automorf.trimmed.att $@
+$(PREFIX1).automorf-trimmed.hfst: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.prefixes
+	hfst-compose-intersect -1 .deps/$(LANG1).automorf.hfst -2\
+		.deps/$(PREFIX1).autobil.prefixes -o $@
+
+$(PREFIX).automorf.hfst: $(PREFIX).automorf-trimmed.hfst
+	cp -v $< $@
 
 # -------------------
 # Finnish generation:
