@@ -64,16 +64,17 @@ untrimmed: $(TARGETS_DIR1) $(UNTRIMMED_TARGETS_DIR1) $(TARGETS_DIR2) $(UNTRIMMED
 # -------------------
 
 .deps/$(LANG1).automorf.hfst: $(AP_SRC1)/$(LANG1).automorf.hfst .deps/.d
-	$(ZCAT) $< | hfst-txt2fst > $@
+	hfst-fst2fst -f openfst -i $< -o $@
 
 $(PREFIX1).automorf-untrimmed.hfst: $(AP_SRC1)/$(LANG1).automorf.hfst
-	cp -v $< $@
+	hfst-fst2fst -f olw -i $< -o $@
 
 $(PREFIX1).automorf-trimmed.hfst: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.prefixes
 	hfst-compose-intersect -1 .deps/$(LANG1).automorf.hfst -2\
-		.deps/$(PREFIX1).autobil.prefixes -o $@
+		.deps/$(PREFIX1).autobil.prefixes |\
+		hfst-fst2fst -f olw -o $@
 
-$(PREFIX).automorf.hfst: $(PREFIX).automorf-trimmed.hfst
+$(PREFIX1).automorf.hfst: $(PREFIX1).automorf-trimmed.hfst
 	cp -v $< $@
 
 # -------------------
