@@ -20,6 +20,8 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="part"             c="Particle"/>
+    <sdef n="punct"             c="Punctual"/>
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -43,6 +45,7 @@
     <sdef n="ut"              c="Utrum"/>
     <sdef n="f"               c="Feminine"/>
     <sdef n="m"               c="Masculine"/>
+    <sdef n="mi"               c="Masculin inanimate"/>
     <sdef n="un"              c="No gender"/>
 
     <sdef n="sg"              c="Singular"/>
@@ -97,11 +100,38 @@
 
    <section id="main" type="standard">
 
-     <e><p><l>talo<s n="n"/></l><r>hiša<s n="n"/><s n="f"/></r></p></e>
+    <!-- problems: mismatches -->
 
-      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
-   </section>
+     <e><p><l>kyllä<s n="adv"/></l><r>da<s n="part"/></r></p></e>
+
+
+    <!-- adjectuves -->
+
+     <e><p><l>hyvä<s n="adj"/></l><r>dober<s n="adj"/></r></p></e>
+
+
+     <!-- nouns -->
+
+     <e><p><l>talo<s n="n"/></l><r>hiša<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>vesi<s n="n"/></l><r>voda<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>kiitos<s n="n"/></l><r>hvala<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>olut<s n="n"/></l><r>pivo<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>uloskäynti<s n="n"/></l><r>izhod<s n="n"/><s n="mi"/></r></p></e>
+
+
+     <!-- verbs -->
+
+     <e><p><l>olla<s n="vaux"/></l><r>biti<s n="vbser"/></r></p></e>
+
+
+     <e><p><l>olla<s n="vaux"/></l><r>biti<s n="vbser"/></r></p></e>
+
+     <!-- puncts -->
+
+      <e><re>[.\?;:!…¿¶]</re><p><l><s n="punct"/></l><r><s n="sent"/></r></p></e>
+      <e><re>,</re>          <p><l><s n="punct"/></l>  <r><s n="cm"/></r></p></e>
+
+    </section>
 </dictionary>
 
 <!--
