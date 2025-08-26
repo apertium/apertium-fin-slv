@@ -16,6 +16,7 @@
     <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
     <sdef n="cnjadv"          c="Adverbial conjunction"/>
     <sdef n="pr"              c="Preposition"/>
+    <sdef n="po"              c="Postposition"/>
     <sdef n="adv"             c="Adverb"/>
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
@@ -103,11 +104,29 @@
     <!-- problems: mismatches -->
 
      <e><p><l>kyllä<s n="adv"/></l><r>da<s n="part"/></r></p></e>
+     <e><p><l>ei<s n="adv"/></l><r>ne<s n="part"/></r></p></e>
+     <e><p><l>vielä<s n="adv"/></l><r>še<s n="part"/></r></p></e>
 
 
     <!-- adjectuves -->
 
      <e><p><l>hyvä<s n="adj"/></l><r>dober<s n="adj"/></r></p></e>
+     <e><p><l>iso<s n="adj"/></l><r>velik<s n="adj"/></r></p></e>
+     <e><p><l>kallis<s n="adj"/></l><r>drago<s n="adj"/></r></p></e>
+     <e><p><l>englanninkielinen<s n="adj"/></l><r>angleški<s n="adj"/></r></p></e>
+
+     <!-- adpositions -->
+
+     <e><p><l>lähellä<s n="po"/></l><r>pri<s n="pr"/></r></p></e>
+
+     <!-- adverbs -->
+
+     <e><p><l>tänään<s n="adv"/></l><r>danes<s n="adv"/></r></p></e>
+     <e><p><l>milloin<s n="adv"/></l><r>kdaj<s n="adv"/></r></p></e>
+
+      <!-- conjuncions -->
+
+     <e><p><l>ja<s n="cnjcoo"/></l><r>a<s n="n"/><s n="f"/></r></p></e>
 
 
      <!-- nouns -->
@@ -115,16 +134,35 @@
      <e><p><l>talo<s n="n"/></l><r>hiša<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>vesi<s n="n"/></l><r>voda<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>kiitos<s n="n"/></l><r>hvala<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>leipä<s n="n"/></l><r>kruh<s n="n"/><s n="mi"/></r></p></e>
+     <e><p><l>juusto<s n="n"/></l><r>sir<s n="n"/><s n="mi"/></r></p></e>
+     <e><p><l>runo<s n="n"/></l><r>pesem<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>olut<s n="n"/></l><r>pivo<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>uloskäynti<s n="n"/></l><r>izhod<s n="n"/><s n="mi"/></r></p></e>
 
+
+     <!-- numeral -->
+
+     <e><p><l>yksi<s n="num"/></l><r>en<s n="num"/></r></p></e>
+     <e><p><l>kaksi<s n="num"/></l><r>dva<s n="num"/></r></p></e>
+     <e><p><l>kolme<s n="num"/></l><r>tri<s n="num"/></r></p></e>
+
+
+     <e><p><l>ensimmäinen<s n="adj"/></l><r>prvi<s n="num"/></r></p></e>
+
+     <!-- pro nouns -->
+
+     <e c="XXX"><p><l>oma<s n="prn"/></l><r>svoj<s n="prn"/></r></p></e>
+     <e><p><l>yksi<s n="prn"/></l><r>en<s n="prn"/></r></p></e>
 
      <!-- verbs -->
 
      <e><p><l>olla<s n="vaux"/></l><r>biti<s n="vbser"/></r></p></e>
 
 
-     <e><p><l>olla<s n="vaux"/></l><r>biti<s n="vbser"/></r></p></e>
+     <e><p><l>ymmärtää<s n="vblex"/></l><r>razumeti<s n="vblex"/></r></p></e>
+     <e><p><l>pyytää<s n="vblex"/></l><r>prositi<s n="vblex"/></r></p></e>
+     <e><p><l>puhua<s n="vblex"/></l><r>govoriti<s n="vblex"/></r></p></e>
 
      <!-- puncts -->
 
