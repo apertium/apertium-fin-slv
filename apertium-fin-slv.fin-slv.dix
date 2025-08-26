@@ -118,6 +118,7 @@
      <!-- adpositions -->
 
      <e><p><l>lähellä<s n="po"/></l><r>pri<s n="pr"/></r></p></e>
+     <e><p><l>pitkin<s n="po"/></l><r>po<s n="pr"/></r></p></e>
 
      <!-- adverbs -->
 
@@ -126,7 +127,8 @@
 
       <!-- conjuncions -->
 
-     <e><p><l>ja<s n="cnjcoo"/></l><r>a<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>ja<s n="cnjcoo"/></l><r>a<s n="cnjcoo"/></r></p></e>
+     <e><p><l>kun<s n="cnjcoo"/></l><r>ko<s n="cnjcoo"/></r></p></e>
 
 
      <!-- nouns -->
@@ -139,6 +141,11 @@
      <e><p><l>runo<s n="n"/></l><r>pesem<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>olut<s n="n"/></l><r>pivo<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>uloskäynti<s n="n"/></l><r>izhod<s n="n"/><s n="mi"/></r></p></e>
+     <e><p><l>yö<s n="n"/></l><r>večer<s n="n"/><s n="mi"/></r></p></e>
+     <e><p><l>kuu<s n="n"/></l><r>mesec<s n="n"/><s n="mi"/></r></p></e>
+     <e><p><l>pohja<s n="n"/></l><r>dno<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>päivä<s n="n"/></l><r>dan<s n="n"/><s n="mi"/></r></p></e>
+     <e><p><l>vaimo<s n="n"/></l><r>žena<s n="n"/><s n="f"/></r></p></e>
 
 
      <!-- numeral -->
@@ -152,8 +159,18 @@
 
      <!-- pro nouns -->
 
+     <e><p><l>minä<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+     <e><p><l>sinä<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+     <e><p><l>hän<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+     <e><p><l>me<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+     <e><p><l>te<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+     <e><p><l>he<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+
      <e c="XXX"><p><l>oma<s n="prn"/></l><r>svoj<s n="prn"/></r></p></e>
      <e><p><l>yksi<s n="prn"/></l><r>en<s n="prn"/></r></p></e>
+     <e><p><l>tämä<s n="prn"/></l><r>tisti<s n="prn"/></r></p></e>
+     <e><p><l>tämä<s n="prn"/></l><r>ta<s n="prn"/></r></p></e>
+     <e><p><l>itse<s n="prn"/></l><r>se<s n="prn"/></r></p></e>
 
      <!-- verbs -->
 
@@ -163,6 +180,7 @@
      <e><p><l>ymmärtää<s n="vblex"/></l><r>razumeti<s n="vblex"/></r></p></e>
      <e><p><l>pyytää<s n="vblex"/></l><r>prositi<s n="vblex"/></r></p></e>
      <e><p><l>puhua<s n="vblex"/></l><r>govoriti<s n="vblex"/></r></p></e>
+     <e><p><l>juoda<s n="vblex"/></l><r>popiti<s n="vblex"/></r></p></e>
 
      <!-- puncts -->
 
