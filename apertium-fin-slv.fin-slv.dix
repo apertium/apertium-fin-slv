@@ -104,31 +104,71 @@
     <!-- problems: mismatches -->
 
      <e><p><l>kyllä<s n="adv"/></l><r>da<s n="part"/></r></p></e>
+     <e><p><l>kyllä<s n="adv"/></l><r>ja<s n="part"/></r></p></e>
      <e><p><l>ei<s n="adv"/></l><r>ne<s n="part"/></r></p></e>
      <e><p><l>vielä<s n="adv"/></l><r>še<s n="part"/></r></p></e>
+     <e><p><l>siten<s n="adv"/></l><r>tako<s n="part"/></r></p></e>
+     <e><p><l>juuri<s n="adv"/></l><r>samo<s n="part"/></r></p></e>
+     <e><p><l>jo<s n="adv"/></l><r>že<s n="part"/></r></p></e>
+     <e><p><l>myös<s n="adv"/></l><r>tudi<s n="part"/></r></p></e>
+     <e><p><l>kaikki<s n="prn"/></l><r>ves<s n="det"/></r></p></e>
 
 
     <!-- adjectuves -->
 
+     <e><p><l>kuuma<s n="adj"/></l><r>topel<s n="adj"/></r></p></e>
+     <e><p><l>alkoholillinen<s n="adj"/></l><r>alkoholne<s n="adj"/></r></p></e>
+     <e><p><l>alkoholiton<s n="adj"/></l><r>brezalkoholne<s n="adj"/></r></p></e>
      <e><p><l>hyvä<s n="adj"/></l><r>dober<s n="adj"/></r></p></e>
+     <e><p><l>punainen<s n="adj"/></l><r>rdeč<s n="adj"/></r></p></e>
+     <e><p><l>valkoinen<s n="adj"/></l><r>bel<s n="adj"/></r></p></e>
      <e><p><l>iso<s n="adj"/></l><r>velik<s n="adj"/></r></p></e>
      <e><p><l>kallis<s n="adj"/></l><r>drago<s n="adj"/></r></p></e>
      <e><p><l>englanninkielinen<s n="adj"/></l><r>angleški<s n="adj"/></r></p></e>
+     <e><p><l>slovenialainen<s n="adj"/></l><r>slovenski<s n="adj"/></r></p></e>
 
      <!-- adpositions -->
 
+     <!-- LR but fixed in syntax placeholder RL -->
+
      <e><p><l>lähellä<s n="po"/></l><r>pri<s n="pr"/></r></p></e>
      <e><p><l>pitkin<s n="po"/></l><r>po<s n="pr"/></r></p></e>
+     <e><p><l>sisällä<s n="po"/></l><r>v<s n="pr"/></r></p></e>
+     <e><p><l>päällä<s n="po"/></l><r>na<s n="pr"/></r></p></e>
+     <e><p><l>takana<s n="po"/></l><r>za<s n="pr"/></r></p></e>
+     <e><p><l>kanssa<s n="po"/></l><r>z<s n="pr"/></r></p></e>
+     <e><p><l>kanssa<s n="po"/></l><r>s<s n="pr"/></r></p></e>
+     <e><p><l>koskien<s n="po"/></l><r>o<s n="pr"/></r></p></e>
+     <e><p><l>lähtien<s n="po"/></l><r>od<s n="pr"/></r></p></e>
+     <e><p><l>lähtien<s n="po"/></l><r>iz<s n="pr"/></r></p></e>
 
      <!-- adverbs -->
 
+     <e><p><l>jotain<s n="adv"/></l><r>nekaj<s n="adv"/></r></p></e>
+     <e><p><l>hyvin<s n="adv"/></l><r>dobro<s n="adv"/></r></p></e>
+     <e><p><l>miten<s n="adv"/></l><r>kako<s n="adv"/></r></p></e>
      <e><p><l>tänään<s n="adv"/></l><r>danes<s n="adv"/></r></p></e>
      <e><p><l>milloin<s n="adv"/></l><r>kdaj<s n="adv"/></r></p></e>
+    <e><p><l>luvalla<s n="adv"/></l><r>lahko<s n="adv"/></r></p></e>
+    <e><p><l>täällä<s n="adv"/></l><r>tukaj<s n="adv"/></r></p></e>
+    <e><p><l>nyt<s n="adv"/></l><r>zdaj<s n="adv"/></r></p></e>
 
       <!-- conjuncions -->
 
      <e><p><l>ja<s n="cnjcoo"/></l><r>a<s n="cnjcoo"/></r></p></e>
+     <e><p><l>ja<s n="cnjcoo"/></l><r>in<s n="cnjcoo"/></r></p></e>
+     <e><p><l>ja<s n="cnjcoo"/></l><r>pa<s n="cnjcoo"/></r></p></e>
      <e><p><l>kun<s n="cnjcoo"/></l><r>ko<s n="cnjcoo"/></r></p></e>
+     <e><p><l>eikä<s n="cnjcoo"/></l><r>ne<s n="cnjcoo"/></r></p></e>
+     <e><p><l>tai<s n="cnjcoo"/></l><r>ali<s n="cnjcoo"/></r></p></e>
+     <e><p><l>siksi<s n="cnjcoo"/></l><r>zakaj<s n="cnjcoo"/></r></p></e>
+     <e><p><l>mutta<s n="cnjcoo"/></l><r>ampak<s n="cnjcoo"/></r></p></e>
+
+     <e><p><l>koska<s n="cnjsub"/></l><r>da<s n="cnjsub"/></r></p></e>
+     <e><p><l>jos<s n="cnjsub"/></l><r>če<s n="cnjsub"/></r></p></e>
+     <e><p><l>kuin<s n="cnjsub"/></l><r>kot<s n="cnjsub"/></r></p></e>
+     <e><p><l>kun<s n="cnjsub"/></l><r>ko<s n="cnjsub"/></r></p></e>
+     <e><p><l>joka<s n="cnjsub"/></l><r>ki<s n="cnjsub"/></r></p></e>
 
 
      <!-- nouns -->
@@ -140,12 +180,22 @@
      <e><p><l>juusto<s n="n"/></l><r>sir<s n="n"/><s n="mi"/></r></p></e>
      <e><p><l>runo<s n="n"/></l><r>pesem<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>olut<s n="n"/></l><r>pivo<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>viini<s n="n"/></l><r>vino<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>salaatti<s n="n"/></l><r>solata<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>uloskäynti<s n="n"/></l><r>izhod<s n="n"/><s n="mi"/></r></p></e>
      <e><p><l>yö<s n="n"/></l><r>večer<s n="n"/><s n="mi"/></r></p></e>
      <e><p><l>kuu<s n="n"/></l><r>mesec<s n="n"/><s n="mi"/></r></p></e>
      <e><p><l>pohja<s n="n"/></l><r>dno<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>päivä<s n="n"/></l><r>dan<s n="n"/><s n="mi"/></r></p></e>
      <e><p><l>vaimo<s n="n"/></l><r>žena<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>vesi<s n="n"/></l><r>voda<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>mehu<s n="n"/></l><r>sok<s n="n"/><s n="mi"/></r></p></e>
+     <e><p><l>järjestys<s n="n"/></l><r>red<s n="n"/><s n="mi"/></r></p></e>
+     <e><p><l>omeletti<s n="n"/></l><r>omleta<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>sipuli<s n="n"/></l><r>čebula<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>pleskavica<s n="n"/></l><r>pleskavica<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>cevapcici<s n="n"/></l><r>cevapcici<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>kuitti<s n="n"/></l><r>račun<s n="n"/><s n="mi"/></r></p></e>
 
 
      <!-- numeral -->
@@ -171,6 +221,7 @@
      <e><p><l>tämä<s n="prn"/></l><r>tisti<s n="prn"/></r></p></e>
      <e><p><l>tämä<s n="prn"/></l><r>ta<s n="prn"/></r></p></e>
      <e><p><l>itse<s n="prn"/></l><r>se<s n="prn"/></r></p></e>
+     <e><p><l>mikä<s n="prn"/></l><r>kaj<s n="prn"/></r></p></e>
 
      <!-- verbs -->
 
@@ -181,6 +232,13 @@
      <e><p><l>pyytää<s n="vblex"/></l><r>prositi<s n="vblex"/></r></p></e>
      <e><p><l>puhua<s n="vblex"/></l><r>govoriti<s n="vblex"/></r></p></e>
      <e><p><l>juoda<s n="vblex"/></l><r>popiti<s n="vblex"/></r></p></e>
+     <e><p><l>tuulla<s n="vblex"/></l><r>veti<s n="vblex"/></r></p></e>
+
+     <!-- digits -->
+
+     <e><re>[IVXLCM]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+     <e><re>[ivclcm]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+     <e><re>[0-9]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
      <!-- puncts -->
 
